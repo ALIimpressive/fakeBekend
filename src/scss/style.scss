@@ -1,0 +1,38 @@
+#home {
+  padding: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.page button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding-left: 10px;
+  border: solid 1px black;
+}
+
+.page button:hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px 0px 10px 1px;
+  padding-left: 10px;
+  transition: 0.5s;
+  color: gray;
+  background-color: gray;
+  transform: rotate(130deg);
+  border: 3px solid transparent;
+  box-shadow: 1px 0px 10px 10px greenyellow;
+}
